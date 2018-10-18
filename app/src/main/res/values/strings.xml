@@ -13,4 +13,6 @@
     <string name="unknown_type">Unknown</string>
     <string name="since_planted">Since planted</string>
     <string name="since_watered">Since watered</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>
