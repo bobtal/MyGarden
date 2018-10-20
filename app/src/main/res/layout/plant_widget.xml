@@ -24,17 +24,26 @@
     <ImageView
         android:id="@+id/widget_water_button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/water_drop_blue" />
 
     <ImageView
         android:id="@+id/widget_plant_image"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
         android:layout_gravity="center"
         android:src="@drawable/grass" />
 
-    <!-- TODO (4) Add a new TextView in plant_widget and set it to show the plant ID -->
+    <!-- COMPLETED (4) Add a new TextView in plant_widget and set it to show the plant ID -->
+    <TextView
+        android:id="@+id/widget_plant_id"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
 
 </LinearLayout>
